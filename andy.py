@@ -36,25 +36,23 @@ if __name__ == "__main__":
 
 	for full in to_greet:
 		greeting_from_full(full)
-		# end of script
-		# end of script
 
 
-	def make_pbj(bread_type="white", peanut_butter="creamy", jelly="grape"):
-		"""Print steps to make a peanut butter and jelly sandwich.
+def make_pbj(bread_type="white", peanut_butter="creamy", jelly="grape"):
+    """Print steps to make a peanut butter and jelly sandwich.
 
-		Args:
-			bread_type (str): Type of bread to use.
-			peanut_butter (str): Type of peanut butter.
-			jelly (str): Type of jelly or jam.
-		"""
-		steps = [
-			f"Take two slices of {bread_type} bread.",
-			f"Spread {peanut_butter} peanut butter on one slice.",
-			f"Spread {jelly} jelly on the other slice.",
-			"Put the two slices together with the spreads facing each other.",
-			"Cut the sandwich in half (optional).",
-			"Serve and enjoy!",
-		]
-		for i, s in enumerate(steps, start=1):
-			print(f"{i}. {s}")
+    Args:
+	bread_type (str): Type of bread to use.
+	peanut_butter (str): Type of peanut butter.
+	jelly (str): Type of jelly or jam.
+    """
+    steps = [
+	f"Take two slices of {bread_type} bread.",
+	f"Spread {peanut_butter} peanut butter on one slice.",
+	f"Spread {jelly} jelly on the other slice.",
+	"Put the two slices together with the spreads facing each other.",
+	"Cut the sandwich in half (optional).",
+	"Serve and enjoy!",
+    ]
+    for i, s in enumerate(steps, start=1):
+	print(f"{i}. {s}")
